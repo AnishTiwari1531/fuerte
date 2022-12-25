@@ -1,0 +1,50 @@
+h1{
+    border: 3px solid black;
+    background-color: lawngreen;
+    color: black;
+}
+
+.mb-3 {
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.form-control {
+    width: 30%;
+}
+
+label {
+    display: grid;
+    place-items: center;
+    width: 10%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+input,
+label {
+    font-size: 20px;
+}
+
+input {
+    padding: 5px;
+}
+
+.btn {
+    margin: 15px;
+    background: #428bca;
+    padding: 20px 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #428bca;
+}
